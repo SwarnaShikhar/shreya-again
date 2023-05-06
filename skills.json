@@ -9,6 +9,9 @@
         "name": "UI Design"
     },
     {
+        "name": "Photoshop"
+    },
+    {
         "name": "Figma Prototype"
     },
     {
@@ -21,6 +24,9 @@
         "name": "Figma"
     },
     {
+        "name": "Interaction Design"
+    },
+    {
         "name": "Market Research"
     },
     
@@ -31,21 +37,15 @@
         "name": "Prototyping"
     },
     {
-        "name": "3D Modeling"
+        "name": "Product Designing"
     },
     {
         "name": "Accessbility"
     },
     {
-        "name": "Product Designing"
-    },
-    {
         "name": "Usability Testing"
     },
     {
-        "name": "Interaction Design"
-    },
-    {
         "name": "Illustration"
-    }    
+    }
 ]
