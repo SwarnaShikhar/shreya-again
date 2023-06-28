@@ -159,7 +159,7 @@ header .navbar ul li a:hover{
 .work{
   /* background: #010124; */
   background: linear-gradient(to bottom, #010136, #00003a);
-  margin-top: 5rem;
+  margin-top: 5px;
 }
 .work h2{
   color: #fff;
@@ -242,6 +242,19 @@ header .navbar ul li a:hover{
 .work .desc .btns .btn:hover{
   background: #310ae0f5;
 }
+
+.carousel-item {
+  position: absolute;
+  top: -50px;
+  left: 200px;
+}
+
+.carousel-item :active {
+  position: absolute;
+  top: -50px;
+  left: 200px;
+}
+
 
 /* back to home button */
 .backbtn{

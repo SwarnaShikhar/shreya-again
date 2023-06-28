@@ -789,10 +789,10 @@ header .navbar ul li a:hover{
   font-family: 'Font Awesome\ 5 Free';
 }
 .experience .left {
-  left: 0;
+  left: -305px;
 }
 .experience .right {
-  left: 50%;
+  left: 305px;
 }
 /* arrows pointing right */
 .experience .left::before {
