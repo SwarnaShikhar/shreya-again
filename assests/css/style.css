@@ -365,6 +365,7 @@ header .navbar ul li a:hover{
 .about .row .content {
   flex: 1 1 45rem;
   padding: 3rem;
+  margin-top: -30px;
 }
 .about .row .content h3{
   color: rgb(27, 27, 27);
@@ -378,25 +379,30 @@ header .navbar ul li a:hover{
 }
 .about .row .content p{
   font-size: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1.4rem;
   font-family: 'Nunito';
   font-weight: 600;
 }
 .about .row .content .box-container{
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 0.5rem;
   font-family: 'Nunito';
   font-weight: 600;
 }
 .about .row .content .box-container .box p{
   text-transform: none;
+  margin-top: -5px;
 }
 .about .row .content .box-container .box p span{
   color:#424fc9;
+  
+}
+.about .row .content .box-container .box {
+  margin-top: -5px;
 }
 .resumebtn{
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
@@ -1123,6 +1129,31 @@ form .button-area{
   flex-wrap: wrap;
   padding: 1rem 0;
 }
+
+.carousel-control-prev {
+  position: absolute;
+  margin-left: -200px;
+
+}
+
+#carouselExampleIndicators .carousel-control-prev-icon
+ {
+ 
+  width: 35px;
+  height: 35px;
+}
+
+#carouselExampleIndicators .carousel-control-next-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.carousel-control-next {
+  position: absolute;
+  margin-right: -200px;
+
+}
+
 .footer .box-container .box .share a{
   height: 4rem;
   width: 4rem;
@@ -1241,7 +1272,7 @@ form .button-area{
   }
 }
 
-@media only screen and (max-width:768px) and (min-width:481px) {
+@media only screen and (max-width:768px) and (min-width:541px) {
   
   .experience .left {
     left: -163px;
@@ -1275,9 +1306,9 @@ form .button-area{
   .experience .right {
     left: 267px;
   }
-  section {
+  /* section {
     min-height: max-content;
-  }
+  } */
 }
 
 @media only screen and (max-width:1024px) and (min-width:821px) {
