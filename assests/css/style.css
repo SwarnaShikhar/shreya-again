@@ -456,7 +456,7 @@ header .navbar ul li a:hover{
 
 /* skills section starts */
 .skills {
-  min-height: 90vh;
+  min-height: 66vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
 .skills h2 {
@@ -472,7 +472,7 @@ header .navbar ul li a:hover{
   padding: 2rem;
   width: 90%;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 .skills .container .row {
   display: grid;
@@ -481,7 +481,7 @@ header .navbar ul li a:hover{
   gap: 1.8rem;
 }
 .skills .container .bar {
-  margin-bottom: 15px;
+  margin-bottom: 4px;
   padding: 10px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -503,7 +503,7 @@ header .navbar ul li a:hover{
   font-size: 4rem;
 }
 .skills .container .bar .info span {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 500;
   font-family: "Poppins";
   margin-left: 0.5rem;
@@ -532,7 +532,7 @@ header .navbar ul li a:hover{
 /* education section starts */
 .education{
   background: #e5ecfb;
-  min-height: 80vh;
+  min-height: 57vh;
 }
 
 .education .box-container{
@@ -636,19 +636,27 @@ header .navbar ul li a:hover{
 .work{
   /* background: #010124; */
   background: linear-gradient(to bottom, #2121e2, #00002c);
+  min-height: 60vh;
 }
 .work h2{
+  min-height: 0vh;
   color: #fff;
-  padding: 1rem;
+  padding: 2rem;
+  margin: auto;
+
 }
 .work .heading span{
+  
   color: rgb(255, 230, 0);
+  
+  
 }
 .work .box-container{
   display: flex;
   flex-wrap: wrap;
   gap:1.5rem;
   margin: 2rem;
+  min-height: 10vh;
 }
 .work .box-container .box{
   flex:1 1 30rem;
