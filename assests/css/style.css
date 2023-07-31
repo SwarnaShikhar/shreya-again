@@ -1331,4 +1331,16 @@ form .button-area{
     min-height: max-content;
   }
 }
+@media only screen and (max-width:480px) and (min-width:350px) {
+
+  .about.left {
+    left: -215px;
+  }
+  .about.right {
+    left: 215px;
+  }
+  section {
+    min-height: max-content;
+  }
+}
 /* scroll top ends */
