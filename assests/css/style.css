@@ -16,15 +16,11 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  height: 100%;
-  width: 100%;
 }
 
 body {
   background: #f7f7f7;
   font-family: 'Poppins', sans-serif;
-  height: 100%;
-  width: 100%;
   overflow-x: hidden;
 }
 
@@ -36,8 +32,6 @@ body {
 html {
   font-size: 62.5%;
   overflow-x: hidden;
-  height: 100%;
-  width: 100%;
 }
 
 html::-webkit-scrollbar {
@@ -74,7 +68,7 @@ html::-webkit-scrollbar-thumb {
 
 /* navbar starts */
 header {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -1566,6 +1560,31 @@ form .button-area {
   left: 8px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* testimonials section starts */
 .testimonials {
   /* background: #010124; */
@@ -1715,6 +1734,36 @@ form .button-area {
 }
 
 /* work section ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* contact section media queries starts */
 @media (max-width:900px) {
